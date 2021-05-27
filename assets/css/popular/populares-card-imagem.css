@@ -1,0 +1,10 @@
+.populares__card___imagem {
+    grid-area: card-imagem;
+    /* definimos onde a imagem vai ficar no template criado no populares-card.css*/
+    height: 100%;
+    width: 100%;
+}
+
+.populares__card___imagem:last-child { /*pegando o último filho. */
+    margin-right: 0;
+}

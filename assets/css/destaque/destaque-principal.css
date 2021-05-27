@@ -1,0 +1,17 @@
+.destaques__principal {
+
+    background: url(../../img/fortnite.jpg) center / cover no-repeat;
+
+    /* background-image: url(../../img/fortnite.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /*grid-column-start: 1; /*primeira coluna*/
+    /* o end tem uma particularidade caso queremos ocupar 3 colunas
+    temos que dizer a ele ocupar 4, pois o end ele não ocupa 100% ele pode até 
+    ocupar por padrão não, ou seja, caso queiramos preencher até a coluna 3 
+    temos que dizer ao end ir até a 4 coluna, o mesmo para linha-end*/
+    /*grid-column-end: 4;/* final da coluna*/
+    grid-row-start: 1;/*Inicio da primeira linha*/
+    grid-row-end: 3;/*final da linha*/
+}

@@ -1,0 +1,41 @@
+.app {
+    background: #f1f1f1;
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+/* configurando o template-areas */
+    grid-template-areas: 
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    /* definindo as colunas  */
+    grid-template-columns: auto;
+    /* definindo as linhas e seu tamanho referente aos templates areas, onde cada um é uma linha. */
+    grid-template-rows: 50px auto auto;
+    /* definimos: 50px para cabeçalho, e auto para conteúdo e rodapé. */
+}
+
+.cabecalho {
+    /* background-color: #00cc99; */
+    /* para que o grid entenda que conteúdo cabeçalho e da área
+    cabecalho temos que dizer usando grid-area */
+    grid-area: cabecalho;
+    display:flex;
+    align-items: center;
+    padding: 0 2rem;
+
+}
+ 
+.conteudo {
+    /* background-color: #ff8080; */
+    grid-area: conteudo;
+    padding: 0 2rem;
+}
+
+.rodape {
+    background-color: #fdfdfd;
+    color: #333333;
+    grid-area: rodape;
+    font-size: .8rem;
+    padding: 1rem;
+    text-align: center;
+}

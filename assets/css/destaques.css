@@ -1,0 +1,14 @@
+.destaques {
+    display: grid;
+    /* definindo o tamanho de cada coluna. */
+    grid-template-columns: 25% 25% 25% 25%;
+    /* definindo o tamanho de cada linha, pegamos 100% dividimos por 3 que dá 33.33% */
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    /* definindo a tamanho da ocupação da seçao
+    destaque */
+    /* definindo a altura para não cobrir o menu
+    subtraimos o tamonho do menu no calc assim
+    inicia logo após do 50px*/
+    height: calc(100vh - 50px);
+    grid-gap: .2rem;
+}

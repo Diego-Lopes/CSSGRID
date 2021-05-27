@@ -1,0 +1,14 @@
+.populares__card___corpo {
+    grid-area: card-corpo;
+    /*estamos dizendo que o conteúdo corpo vai 
+    posicionar-se na gride área card-corpor definido
+    no populares-card.css */
+
+    padding: .75rem;
+    display: grid;
+    grid-template-areas: 
+        "card-cabecalho"
+        "card-conteudo";
+    grid-template-rows: 50px auto; /*definindo o tamno do templete row. */
+    grid-row-gap: .5rem;
+}

@@ -1,0 +1,14 @@
+.populares__card {
+    display: grid; /*Definindo que card é grid e vai criar 
+    templete */
+    background-color: #fdfdfd;
+    grid-template-areas:
+        "card-imagem"
+        "card-corpo";
+
+    grid-template-columns: 100%;
+    /* definindo o tamanho da img*/
+    grid-template-rows: 150px auto;/*primeiro linha é da imagem o a segunda do conteúdo. */
+    margin-right: 1rem;
+    width: calc(20% - 1rem); /*definimos o tamoanho em 20% da linha pois são 5 elementos 100/5=20% */
+}
