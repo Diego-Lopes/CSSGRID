@@ -8,7 +8,9 @@
 
     grid-template-columns: 100%;
     /* definindo o tamanho da img*/
-    grid-template-rows: 150px auto;/*primeiro linha é da imagem o a segunda do conteúdo. */
-    margin-right: 1rem;
-    width: calc(20% - 1rem); /*definimos o tamoanho em 20% da linha pois são 5 elementos 100/5=20% */
+    /*grid-template-rows: 150px auto;(<- está propriedade
+    está no media query.)/*primeiro linha é da imagem o a segunda do conteúdo. */
+    
+    /*width: calc(20% - 1rem);(<- está propriedade está no media query.)
+     /*definimos o tamoanho em 20% da linha pois são 5 elementos 100/5=20% */
 }
